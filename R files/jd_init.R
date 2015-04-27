@@ -1,5 +1,6 @@
 library("rJava")
 .jinit()
+# Add the path to the file "demetra-tstoolkit-2.0.0.jar" here:
 .jaddClassPath("../java/demetra-tstoolkit-2.0.0.jar")
 jd_month<-.jfield("ec/tstoolkit/timeseries/simplets/TsFrequency","Lec/tstoolkit/timeseries/simplets/TsFrequency;","Monthly")
 jd_quarter<-.jfield("ec/tstoolkit/timeseries/simplets/TsFrequency","Lec/tstoolkit/timeseries/simplets/TsFrequency;","Quarterly")
